@@ -1,0 +1,166 @@
+######################################
+# Name: Anthony Lampi && Leo Gomez   #
+# CruzID: alampi legomez             #
+# Class: CMPS-12B                    #
+# Date: Dec 8, 2014                  #
+# filename: demo.adventure           #
+# Details: lines are is the skeleton #
+#   of the adventure file            #
+######################################
+r Home, a small log cabin in a mysterious forest, Azeroth
+d You've returned to your kitchen in your log cabin to have a meal, in Azeroth
+d You hear a strange noise that startles you from outside
+d What should you do?
+o Go and investigate the noise
+t outside your cabin, Azeroth
+o Remain inside your cabin
+t inside your cabin, your Home
+o peek through the window from within your cabin
+t the clean nearby window, the window in your Home
+
+r outside your cabin, Azeroth
+d you step outside your cabin with a magic staff in hand
+d the strange noise seems to be coming from your horse's stable
+d what do you do?
+o walk over to the stable to see if your horse is alright
+t your horse's stable, Azeroth
+o retreat behind a nearby tree just beside the stable, Azeroth
+t behind the oak tree beside the stable, Azeroth
+o return to your cabin, Azeroth
+t Home, a small log cabin in a mysterious forest, Azeroth
+
+r inside your cabin, your Home
+d you ignore the noise outside of your cabin
+d you proceed in having a meal and suddenly the noise happens again louder
+d you stare at the door, what so you do?
+o you reach for your magic staff and enter your private study
+t private study, inside your Home
+o accidently knock over your meal and jump through the window
+t the clean nearby window, the window in your Home
+o go investigate the noise outside
+t outside your cabin, Azeroth
+o do nothing about it and cast a teleportation spell
+t The Misty Mountains, Azeroth
+
+r your horse's stable, Azeroth
+d you approach your horse's stable and discover your horse laying on the ground
+d your horse does not appear to be dead but its eyes are shut
+d you determine your horse has been put to sleep by a knock out spell. what do you do?
+o investigate the nearby forest
+t forest outside your Home, Azeroth
+o investigate the lighthouse by the coast
+t lighthouse by your Home, Azeroth
+
+r the lake in the forest, Azeroth
+d you reach the lake and discover many ripples appearing from the water
+d you determine this could be something more powerful or just fish feeding on flies. What could it be?
+o its not a big deal, go back home
+t Home, a small log cabin, Azeroth
+o cast a spell to reverse time to the moment you heard the loud noise, but jump through the window
+t the clean nearby window, the window in your Home
+o venture into the forest in search of the dark wizard
+t the forest outside your Home, Azeroth
+o cast a teleportation spell and dispear to the neighboring land of Riverdale
+t Fortune City, Riverdale
+
+r private study, inside your Home
+d while in your private study you try to relax, but the noises persist
+o leave your private study and investigate the nearby lighthouse
+t lighthouse by your Home, Azeroth
+o ignore the continuing noise and go back eat your meal
+t Home, a small log cabin, Azeroth
+o investigate just outside of your cabin
+t outside your cabin, Azeroth
+
+r behind the oak tree beside the stable, Azeroth
+d you peak out from behind the tree and listen carefully
+d you hear the murmurs of the dark wizard casting spell with his magic staff
+d you recognize the spell the dark wizard is casting and identify it is a knock out spell
+d a gust of wind blows in the direction of the dark wizard and he turns to spot you by the tree
+d the dark wizard makes a run for it
+o Chase after the dark wizard
+t up the cliffside terrain, Azeroth
+o allow the dark wizard to get away and cast a spell to summon a new horse
+t summoning circle, outside your Home
+
+r summoning circle, outside your Home
+d you cast a spell and summon a new horse and in the process, have your original horse disapear
+d you go back inside your Home and suddenly hear the another noise outside. what do you do?
+o go back outside
+t outside your cabin, your Home
+o use the spotlight on the lighthouse to spot the dark wizard
+t lighthouse by your Home, Azeroth
+o Go and eat something to eat
+t Home, a small log cabin, Azeroth
+
+r Fortune City, Riverdale
+d you arrive in Fortune City and wonder what this place has in store for you
+d the city is buzy with many townsfoke and you long for the solitude you had at your home in Azeroth
+d maybe this isn't your best option. what to do?
+o return to Azeroth and face the dark wizard
+t up the cliffside terrain, Azeroth
+o ignore the situation at hand and just retun to your Home
+t Home, a small log cabin, Azeroth
+
+r the clean nearby window, the window in your Home
+d you stand back up and look around yourself
+d you look over by your horse's stable and see the dark wizard
+d he is startled by your sudden action and is attempting to run away!
+o chase after the dark wizard
+t up the cliffside terrain, Azeroth
+o leave Azeroth and use a spell to take you to a new land
+t Fortune City, Riverdale
+o assume he will leave you alone and go eat something
+t Home, a small log cabin, Azeroth
+
+r The Misty Mountains, Azeroth
+d you arrive up in the Misty Mountains believing whatever was making the loud noise has abandon its attempts to provoke you
+d it is very chilly up in the Mountains and you feel cold
+d maybe this wasn't the best idea
+o go back to your cabin as though nothing happened
+t Home, a small log cabin, Azeroth
+o cast a foresight spell to see what caused the loud noise
+t through the portal of foresight
+o cast a reverse time spell and go back to when the noise happened but jump through your window
+t the clean nearby window, the window in your Home
+
+r through the portal of foresight
+d the portal reveals to you it was the dark wizard who caused the loud noise
+d he seems to be moving away from your cabin. perhaps he will leave you alone. what should you do?
+o go and chase after the dark wizard
+t up the cliffside terrain, Azeroth
+o return back to Azeroth and check outside to be sure
+t outside your cabin, Azeroth
+o double check the portal to ensure you identified that is was the dark wizard
+t through the portal of foresight
+o start a new life in a the neighboring land
+t Fortune City, Riverdale
+
+r forest outside your Home, Azeroth
+d you investigate the forest nearby, but to no success
+d it would appear as though the source of the loud noise did not go in this direction
+d You then discover the forest inhabitants are fleeing away from something over by the nearby lake
+o as a light wizard, i am swore to help the good and the innocent of this land. Time to help
+t the lake in the forest, Azeroth
+o I can not help them all and my life comes first
+t Fortune City, Riverdale
+
+r lighthouse by your Home, Azeroth
+d you ascend the lighthouse and take hold of the spotlight at the top
+d you activate the spotlight and shine it in the direction where the dark wizard is escaping
+d the dark wizard burns away from the intensity of the light, but is he gone for good? Congratulations, You have won!
+o that's the end of him, now i can go home
+t Home, a small log cabin, Azeroth
+o too risky to stay here, time to use a spell to get me out of here!
+t Fortune City, Riverdale
+
+r up the cliffside terrain, Azeroth
+d you chase after the dark wizard and corner him against the edge
+d the dark wizard laughs at you and says no matter what, i will always come back to torment your life
+d a duel ensues between you and the dark wizard, spells of all kinds being cast, but will you defeat him?
+o use a spell to teleport yourself to the lighthouse to use the spotlight
+t lighthouse by your Home, Azeroth
+o abandon this land and cast a spell to leave for a new one
+t Fortune City, Riverdale
+o Question whether or not this is who you appear to be fighting and teleport to somewhere isolated
+t The Misty Mountains, Azeroth

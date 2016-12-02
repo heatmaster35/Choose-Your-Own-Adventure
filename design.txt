@@ -1,0 +1,67 @@
+//Anthony Lampi & Leo Gomez
+//(alampi)  & (legomez)
+//cmps012b  12/8/14  asg4
+// design.txt
+                                   Design Document for an Adventure Game
+Concept:
+
+For our assignment, my partner and i broke down the adventure class or "cyoa" file
+into four separate files in order to carry out the different data structures we used 
+in order to run our adventure program. To start, we determined the neccsary data 
+structures for this assignment, were an stack, a array, a binary search tree, and a linked 
+list. Each of these structures were responsible for organizing and spliting the tasks that
+were asked of us from the assignment.
+
+Implementation:
+
+In our stack file, we used it to hold and arrange our 10 rooms for our adventure file.
+We felt a stack was an appropriate structure to use here because it has the functions push
+and pop, which we figured made it easier to navigate between rooms. We could push a 
+room from the stack when a player decides to enter a new room from the starting room
+and then pop the same room from the stack should the player want to return to the previous
+room. This was easy to apply as with our stack code, we could create as many rooms as we 
+felt possible. The actual code consists of one constructor with a main function to set the
+amount of rooms, followed by the push and pops options. If a room is then removed from
+the stack,  but is this starting room, our code throws a RuntimeException. If this does not 
+occur, then this option behaves as normal.
+
+In our linked list file, we use the basic structure for a normal singly linked list to generate 
+the descriptions and options for each room throughout our adventure file. What this means
+is with each room, the description for the room gets updated as the player advances through 
+the options. The options for the player are also held with in this linked list file and are 
+produced to the player awaiting a selection. We felt it was important to have private classes 
+for room, option, and descriptions. It was also neccsary to set thses three classes to null at
+the start, whether it be the initial or the current room. For insert the names and descriptions
+we wrote our code in a way to handle a string, which could connect the rooms for our 
+adventure together. The options per room was also written to be handled in this same manner.
+
+In our main file, wrote the code to act as essentially and organizing file to separate and filter
+information to the appropriate files. By this I mean, it puts our files into an ordered array and
+passes information along, such as rooms, descriptions, and options. The number of rooms
+are ordered through this main file and passed on to our stack file, which as mentioned earlier
+, holds functions for push and pop. We also used the "switch " to hold the commands for this 
+assignment, namely 'r', 'd', 'o', and 't". This was written in the format of case and break 
+which made it easier to go through information as it would compare to the option and follow
+through with the correct action, such as pushing from the stack and insert a room description.
+Furthermore, we implemented 'try' and 'catch' in our main function, stating each string
+name we referenced throughout the function. If our user input for a command is invalid , 
+our file catches an IOException and prints a trace of our stack of rooms. 
+
+In our binary search tree file, we wrote the code to behave as a normal binary search tree 
+would in managing the tags for the rooms and information in our adventure file. This means 
+before the options are given for the player, general information is provided for the player and
+leaves a tag for a given room, allowing for the player to trace back if he or she wanted to undo
+a previous choice. The tags fit well with a binary search tree as we could traverse up an down
+the tree each time a option traced back to a previous room as though it were looping back to
+the initial room or the root of the tree. We also allowed for the tree to find a tag that is to be
+displayed with a find function as well as an insert function to make it easier to insert a tag 
+following a corresponding option.
+
+We discussed and attempted to use a scanner function  in our main file when we first started 
+to work on this assignment, but we found it to be diffcult to handle as opposed to using and 
+ordered array. Another data structure we consider but di not attempt was a double linked list
+for handling options and rooms. This however also proved to be diffcult, leading us to 
+determine that having a singly linked list to handle rooms and leaving the options the player
+has to choose from to be handled in the main file. In the long run, our assignment progressed
+from simple psuedo code of basic data structures and soon evolved into our own code to 
+handle each command we were asked to work on. 

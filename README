@@ -1,0 +1,18 @@
+//alampi & legomez
+//cmps012b, 12/8/14 asg4
+// README
+//Details: a simple list of all files
+//submited for asg4
+
+This is a paired programming assignment completed by:
+Anthony Lampi       alampi
+Leo Gomez           legomez
+
+-README
+-design.txt
+-Makefile
+-demo.adventure
+-Stack.java
+-cyoa.java
+-Tree.java
+-Room.java
